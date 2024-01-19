@@ -28,6 +28,7 @@ function git_sparse_clone() {
 }
 
 # 添加额外插件
+git clone -b openwrt-18.06 https://github.com/tty228/luci-app-wechatpush package/luci-app-wechatpush
 git clone --depth=1 https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 git clone --depth=1 https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
 git clone --depth=1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
